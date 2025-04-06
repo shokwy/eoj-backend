@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.shok.eoj.mapper.QustionSubmitMapper">
+<mapper namespace="com.shok.eoj.mapper.QuestionSubmitMapper">
 
     <resultMap id="BaseResultMap" type="com.shok.eoj.model.entity.QustionSubmit">
             <id property="id" column="id" />

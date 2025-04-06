@@ -11,13 +11,13 @@ import lombok.Data;
  * 题目提交表
  * @TableName qustion_submit
  */
-@TableName(value ="qustion_submit")
+@TableName(value ="question_submit")
 @Data
-public class QustionSubmit {
+public class QuestionSubmit {
     /**
      * id
      */
-    @TableId(type = IdType.AUTO)
+    @TableId(type = IdType.ASSIGN_ID)
     private Long id;
 
     /**
@@ -38,7 +38,7 @@ public class QustionSubmit {
     /**
      * 判题状态(0 - 待判题、1 - 判题中、2 - 成功、3 - 失败)
      */
-    private String status;
+    private Integer status;
 
     /**
      * 题目 id
